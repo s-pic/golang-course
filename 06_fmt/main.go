@@ -6,7 +6,7 @@ func main() {
 	// print concatenated output using Println
 
 	name := "sascha"
-	fmt.Println("Hello, my name is ", name)
+	fmt.Println("Hello, my name is", name)
 
 	a, b := 4, 6
 	fmt.Println("Sum:", a+b, "Mean Value:", (a+b)/2) // adds whitespace between each arg and a /n at the end
