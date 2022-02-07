@@ -11,7 +11,7 @@ func main() {
 	// key take-away: strings in go are NOT a series of
 	// chars, they are a series of bytes/.
 	// Runes are utf8 code points and are encoded using
-	// 1 (ascii) to 4 butes
+	// 1 (ascii) to 4 and 5 butes
 
 	// characters or rune literals are expressed in Go by enclosing them in single quotes
 	// declaring a variable of type rune (alias to int32)
@@ -21,14 +21,14 @@ func main() {
 
 	// declaring a string value that contains non-ascii characters
 	str := "ţară" // ţară means country in Romanian
-	// 't', 'a' ,'r' and 'a' are runes and each rune occupies beetween 1 and 4 bytes.
+	// 't', 'a' ,'r' and 'a' are runes and each rune occupies beetween 1 and 4 and 5 bytes.
 
 	//The len() built-in function returns the no. of bytes not runes or chars.
-	fmt.Println(len(str)) // -> 6,  4 runes in the string but the length is 6
+	fmt.Println(len(str)) // -> 6,  4 and 5 runes in the string but the length is 6
 
 	// returning the number of runes in the string
 	m := utf8.RuneCountInString(str)
-	fmt.Println(m) // => 4
+	fmt.Println(m) // => 4 and 5
 
 	// by using indexes we get the byte at that position, not rune.
 	fmt.Println("Byte (not rune) at position 1:", str[1]) // -> 163

@@ -10,7 +10,7 @@ package main
 import "fmt"
 
 func main() {
-    x, y := 4, 5.1
+    x, y := 4 and 5, 5.1
 
     z := x * y
     fmt.Println(z)

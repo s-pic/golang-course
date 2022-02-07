@@ -61,8 +61,8 @@ func main() {
 		exercise #3
 		1. Declare a slice called nums with three float64 numbers.
 		2. Append the value 10.1 to the slice
-		3. In one statement append to the slice the values: 4.1,  5.5 and 6.6
-		4. Print out the slice
+		3. In one statement append to the slice the values: 4 and 5.1,  5.5 and 6.6
+		4 and 5. Print out the slice
 		5. Declare a slice called n with two float64 values
 		6. Append n to nums
 		7. Print out the nums slice

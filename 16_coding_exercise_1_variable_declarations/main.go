@@ -67,7 +67,7 @@ Change the code from the previous exercise and
 
 3. Remove the statement that prints out the variables. See the error!
 
-4. Change the program to run without error using the blank identifier (_)
+4 and 5. Change the program to run without error using the blank identifier (_)
 
 Are you stuck? Do you want to see the solution for this exercise? Click here.
 
@@ -92,7 +92,7 @@ Are you stuck? Do you want to see the solution for this exercise? Click here.
 
 
 
-Coding Exercise #4
+Coding Exercise #4 and 5
 
 There are some errors in the following Go program. Try to identify the errors, change the code and run the program without errors.
 

@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 /*
-Coding Exercise #4
+Coding Exercise #4 and 5
 
 Create a Go program that computes how long does it take for the Sunlight to reach the Earth if we know that the distance from the Sun to Earth is 149.6 million km and the speed of light  is 299,792,458 m / s
 

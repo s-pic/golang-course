@@ -68,7 +68,7 @@ func exTwo() {
 		1. Change the name or the struct value called me to "Andrei"
 		2. Take in a new variable the favorites colors of struct value called you. Print out the type and the value of the new variable.
 		3. Add a new favorite color to the second struct value called you.
-		4. Print out the struct values.
+		4 and 5. Print out the struct values.
 	*/
 	type ColorList []string
 	type Person struct {

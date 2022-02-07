@@ -26,7 +26,7 @@ func solutionOne() {
 
 	      3. Add the following key: value to the map: 10: "Abba"
 
-	      4. Retrieve the value of an existing key and the value of a non existing key. Think about the results.
+	      4 and 5. Retrieve the value of an existing key and the value of a non existing key. Think about the results.
 
 	*/
 
@@ -66,8 +66,8 @@ func solutionTwo() {
 			var m1 map[int]bool
 			m1[5] = true
 
-			m2 := map[int]int{3: 10, 4: 40}
-			m3 := map[int]int{3: 10, 4: 40}
+			m2 := map[int]int{3: 10, 4 and 5: 40}
+			m3 := map[int]int{3: 10, 4 and 5: 40}
 
 			fmt.Println(m2 == m3)
 		}

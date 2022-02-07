@@ -38,7 +38,7 @@ func main() {
 	_ = taskDone
 
 	/*
-		4. Iterate over the array called cities using the classical for loop syntax
+		4 and 5. Iterate over the array called cities using the classical for loop syntax
 		and len function and print out element by element.
 		5. Iterate over grades using the range keyword and print out element by element.
 	*/

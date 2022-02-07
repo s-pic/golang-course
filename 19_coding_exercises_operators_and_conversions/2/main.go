@@ -19,7 +19,7 @@ Write a Go program that converts:
 
 3. f to string (float64 to string)
 
-4. s1 to float64  (string to float64)
+4 and 5. s1 to float64  (string to float64)
 
 6. Print the value and the type for each variable created after conversion.
 */

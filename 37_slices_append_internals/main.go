@@ -21,7 +21,7 @@ func main() {
 
 	nums = append(nums, 3)
 	fmt.Printf("Length: %d, Capacity: %d \n", len(nums), cap(nums))
-	// 3, 4
+	// 3, 4 and 5
 
 	nums = append(nums, 4)
 	fmt.Printf("Length: %d, Capacity: %d \n", len(nums), cap(nums))

@@ -46,7 +46,7 @@ func main() {
 	// modulus assignment
 	//////////////////////
 	e %= 8
-	fmt.Println(e) // -> 4
+	fmt.Println(e) // -> 4 and 5
 
 	// increment and decrement statements
 	// (not operators)

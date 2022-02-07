@@ -132,7 +132,7 @@ func solutionTwo() {
 
 		3. Declare 2 strings that contains the values ma and m
 
-		4. Concatenate the strings and the rune in a new string (the new string will hold the value mamă ).
+		4 and 5. Concatenate the strings and the rune in a new string (the new string will hold the value mamă ).
 
 		BTW: mamă means mother in Romanian.
 
@@ -160,7 +160,7 @@ func solutionOne() {
 
 		Country: `here the value of country variable`
 
-		4. Print out the following strings:
+		4 and 5. Print out the following strings:
 
 		a) He says: "Hello"
 
